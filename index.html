@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+  <head>
+    <meta charset="UTF-8"> 
+    <!-- This line defines something called "character encoding" This will allow the browser to display certain characters (such as non-Roman letters) correctly. You should include this line in the head of all of your webpages. -->
+        <link rel="stylesheet" href="css/app.css">
+        <link rel="stylesheet" href="css/bootstrap.css">
+        <link rel="stylesheet" href="css/bootstrap-theme.css">
+        <link rel="stylesheet" href="css/timeline.css">
+        <script src="js/jquery-3.4.1.min.js"></script>
+        <script src="js/bootstrap.js"></script>
+        <title>Git Cloud Project</title>
+    </head>
+
+    <body> 
+        <nav class="navbar navbar-titan">
+            <div class="container-fluid">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a class="navbar-brand" href=""></a>
+                </div>
+                <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                    <ul class="nav navbar-nav">
+                        <li><a href="index.html">Udacity Scholarship</a></li>
+                        <li><a href="blogs.html">Student Blogs</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+
+        <div class="container">
+            <div class="container-fluid">
+                <!-- Tab Names -->
+                <ul class="nav nav-tabs">
+                    <li class="active"><a data-toggle="tab" href="#home">Home</a></li>
+                    <li><a data-toggle="tab" href="#github">Learning Git</a></li>
+                    <li><a data-toggle="tab" href="#aws">Exploring AWS</a></li>
+                    <li><a data-toggle="tab" href="#cloudformation">Implementing CloudFormation</a></li>
+                </ul>
+                <!-- Tab Content -->
+                <div class="tab-content">
+                    <div id="home" class="tab-pane fade in active">
+                        <div class="row">
+                            <img src="images/UdacityLogo.png" class="img-responsive center-block" style="height: 250px;" alt="no-image.png">
+                        </div>
+
+                        <div class="row">
+                            <div class="col-sm-12">
+                                <div class="jumbotron" style="background-image:linear-gradient(315deg,#3492eb,#34c9eb); color: white">
+                                    <h1>Welcome to the Bertelsmann Tech Scholarship blog</h1>
+                                    <p>In phase one of the scholarship we investigated using Git and GitHub, explored the benefits and features of AWS then concluded with implementing CloudFormation with AWS.</p>
+                                </div>
+                            </div>                                
+                        </div>
+
+                        <div class="row">
+                            <div class="col-md-4">
+                                <div class="panel panel-success">
+                                    <div class="panel-heading">
+                                        <h4>Git and GitHub</h4>    
+                                    </div>
+                                    <div class="panel-body">
+                                        <img src="images/GitHubGit.jpeg" class="img-responsive center-block" style="height: 150px;" alt="no-image.png">
+                                        <ul style="padding-top: 20px;">
+                                            <li class="no-borders-list">Studied CloudFormation with AWS</li>
+                                            <li class="no-borders-list">Setup AWS CLIs and API users</li>
+                                            <li class="no-borders-list">Design Cloud Architecture diagrams</li>
+                                            <li class="no-borders-list">Understanding cloud networking</li>
+                                            <li class="no-borders-list">Configuring security groups</li>
+                                            <li class="no-borders-list">Deploying relational databases</li>  
+                                        </ul>
+                                    </div> 
+                                </div>
+                            </div>       
+                            <div class="col-md-4">
+                                <div class="panel panel-info">
+                                    <div class="panel-heading">
+                                        <h4>Understanding the cloud with AWS</h4>
+                                    </div>
+                                    <div class="panel-body">
+                                        <img src="images/Aws.jpg" class="img-responsive center-block" style="height:150px;" alt="no-image.png">
+                                        <ul style="padding-top: 20px;">
+                                            <li class="no-borders-list">Understood the basics of cloud computing</li>
+                                            <li class="no-borders-list">Created an EC2 instance</li>
+                                            <li class="no-borders-list">Investigated VPCs and private networks</li>
+                                            <li class="no-borders-list">Explored S3 storage systems</li>
+                                            <li class="no-borders-list">Launched a relational SQL database</li>   
+                                            <li class="no-borders-list">Used auto scaling to launch EC2 instances</li>
+                                        </ul>
+                                    </div> 
+                                </div>  
+                            </div>
+                            <div class="col-md-4">
+                                <div class="panel panel-warning">
+                                    <div class="panel-heading">
+                                        <h4>CloudFormation with AWS</h4>
+                                    </div>
+                                    <div class="panel-body">
+                                        <img src="images/CloudComputing.jpg" class="img-responsive center-block" style="height:150px;" alt="no-image.png">
+                                        <ul style="padding-top: 20px;">
+                                            <li class="no-borders-list">Studied CloudFormation with AWS</li>
+                                            <li class="no-borders-list">Setup AWS CLIs and API users</li>
+                                            <li class="no-borders-list">Design Cloud Architecture diagrams</li>
+                                            <li class="no-borders-list">Understanding cloud networking</li>
+                                            <li class="no-borders-list">Configuring security groups</li>
+                                            <li class="no-borders-list">Deploying relational databases</li>  
+                                        </ul>
+                                    </div> 
+                                </div>
+                            </div>    
+                        </div>
+                    </div>
+
+                    <div id="github" class="tab-pane fade">
+                        <div class="row">
+                            <div class="col-sm-12">
+                                <div class="page-header text-center">
+                                    <h2 id="timeline">How Useful Did You Find Git and GitHub?</h2>
+                                </div>
+                                <ul class="timeline">
+                                    <li>
+                                        <div class="timeline-badge info"><i class="glyphicon glyphicon-transfer"></i></div>
+                                        <div class="timeline-panel">
+                                            <div class="timeline-heading">
+                                                <h4 class="timeline-title">Better Than TFS</h4>                                            
+                                            </div>
+                                            <div class="timeline-body">
+                                                <p>Git and GitHub was my favourite area of the course. While learning the open source technology I compared this to standard TFS, my decision is I now prefer Git and GitHub due to the branching and excellent logging methods. In addition, I can apply Git to my personal projects as using TFS would not be practical.</p>
+                                                <p><small class="text-muted pull-right"></i> By Robert Pullan 17/12/2019</small></p>
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li class="timeline-inverted">
+                                        <div class="timeline-badge info"><i class="glyphicon glyphicon-transfer"></i></div>
+                                        <div class="timeline-panel">
+                                            <div class="timeline-heading">
+                                                <h4 class="timeline-title">Quick and Easy To Learn</h4>
+                                            </div>
+                                            <div class="timeline-body">
+                                                <p>Git and GitHub was simple to learn than expected. It provides excellent tools such as branching off to avoid damaging the main project when making changes before merging the differences back together.</p>
+                                                <p><small class="text-muted pull-right"></i> By Joe Bloggs 17/12/2019</small></p>
+                                            </div>
+                                        </div>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div id="aws" class="tab-pane fade">
+                        <div class="row">
+                            <div class="col-sm-12">
+                                <div class="page-header text-center">
+                                    <h2 id="timeline">Pick One Topic On AWS and Write A Summary</h2>
+                                </div>
+                                <ul class="timeline">
+                                    <li>
+                                        <div class="timeline-badge info"><i class="glyphicon glyphicon-cloud"></i></div>
+                                        <div class="timeline-panel">
+                                            <div class="timeline-heading">
+                                                <h4 class="timeline-title">EC2 Server</h4>                                            
+                                            </div>
+                                            <div class="timeline-body">
+                                                <p>The benefit to using Amazon EC2 servers is the ability to increase or decrease the number of server instances within minutes. You could not achieve this speed when managing each physical server on premise. Imagine a scenario, where a customer is complaining about poor performance due to the instance, you could resolve this issue within minutes instead of days or even weeks.</p>
+                                                <p><small class="text-muted pull-right"></i> By Robert Pullan 17/12/2019</small></p>
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li class="timeline-inverted">
+                                        <div class="timeline-badge info"><i class="glyphicon glyphicon-cloud"></i></div>
+                                        <div class="timeline-panel">
+                                            <div class="timeline-heading">
+                                                <h4 class="timeline-title">Relational Database Service (RDS)</h4>
+                                            </div>
+                                            <div class="timeline-body">
+                                                <p>RDS will allow you to create, operate and maintain a relational database within the cloud. The simple scalability feature provides database administrators cost effective solutions and can automate time consuming tasks.</p>
+                                                <p><small class="text-muted pull-right"></i> By Joe Bloggs 17/12/2019</small></p>
+                                            </div>
+                                        </div>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div id="cloudformation" class="tab-pane fade">
+                        <div class="row">
+                            <div class="col-sm-12">
+                                <div class="page-header text-center">
+                                    <h2 id="timeline">What Project Would You Deploy Using CloudFormation?</h2>
+                                </div>
+                                <ul class="timeline">
+                                    <li>
+                                        <div class="timeline-badge info"><i class="glyphicon glyphicon-globe"></i></div>
+                                        <div class="timeline-panel">
+                                            <div class="timeline-heading">
+                                                <h4 class="timeline-title">My Personal Private Internal System</h4>                                            
+                                            </div>
+                                            <div class="timeline-body">
+                                                <p>As geeky as this could be, I would develop and deploy my own internal system which I can access from anywhere when required. The web application will require user authentication to prevent rogue users accessing it. This system will be developmented to personally benefit my general life by the use of data.</p>
+                                                <p><small class="text-muted pull-right"></i> By Robert Pullan 17/12/2019</small></p>
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li class="timeline-inverted">
+                                        <div class="timeline-badge info"><i class="glyphicon glyphicon-globe"></i></div>
+                                        <div class="timeline-panel">
+                                            <div class="timeline-heading">
+                                                <h4 class="timeline-title">The New Intranet For My Place Of Work</h4>
+                                            </div>
+                                            <div class="timeline-body">
+                                                <p>My current role working in IT operations has required to me investigate hosting solutions. After completing this course, I shall recommend to my employer that we host our newly developed intranet using CloudFormation due to the added network and user security</p>
+                                                <p><small class="text-muted pull-right"></i> By Joe Bloggs 17/12/2019</small></p>
+                                            </div>
+                                        </div>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </body>
+
+</html>
