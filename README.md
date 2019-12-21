@@ -8,8 +8,7 @@ The blog was created to help all students practice their Git, GitHub skills and 
 Yes, of course. The blogs purpose is for students to fork the repository, make changes in the required areas, commit them and make a pull request which the repository owner will review. These changes will be visible on the website once accepted.
 
 # Where Can I Make Changes?
-Every student can make changes to the 3 tabs of 'Git and GitHub', 'Understanding the cloud with AWS', 'CloudFormation with AWS' and on the 'Student Blogs' page.
-
+Every student can make changes to the 3 tabs of 'Learning Git', 'Exploring AWS', 'Implementing CloudFormation' and on the 'Student Blogs' page.
 # What Can These Changes Be?
 The 3 tabs next to the home tab are based on the 3 main topics taught in Phase 1. Each tab contains a question which you can add a comment to. You can make similar changes to the Student Blog page where you can add a comment containing a link and quick summary for your blog (See Blog Challenge).
 
