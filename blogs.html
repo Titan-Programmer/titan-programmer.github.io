@@ -1,478 +1,1052 @@
 <!DOCTYPE html>
 
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
+  <head>
+    <meta charset="UTF-8" />
     <!-- This line defines something called "character encoding" This will allow the browser to display certain characters (such as non-Roman letters) correctly. You should include this line in the head of all of your webpages. -->
-    <link rel="stylesheet" href="css/app.css">
-    <link rel="stylesheet" href="css/bootstrap.css">
-    <link rel="stylesheet" href="css/bootstrap-theme.css">
-    <link rel="stylesheet" href="css/timeline.css">
+    <link rel="stylesheet" href="css/app.css" />
+    <link rel="stylesheet" href="css/bootstrap.css" />
+    <link rel="stylesheet" href="css/bootstrap-theme.css" />
+    <link rel="stylesheet" href="css/timeline.css" />
     <script src="js/jquery-3.4.1.min.js"></script>
     <script src="js/bootstrap.js"></script>
     <title>Scholarship Student Blog</title>
-</head>
+  </head>
 
-<body>
+  <body>
     <nav class="navbar navbar-titan">
-        <div class="container-fluid">
-            <div class="navbar-header">
-                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
-                    <span class="sr-only">Toggle navigation</span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                </button>
-                <a class="navbar-brand" href=""></a>
-            </div>
-            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-                <ul class="nav navbar-nav">
-                    <li><a href="index.html">Udacity Scholarship</a></li>
-                    <li><a href="blogs.html">Student Blogs</a></li>
-                </ul>
-            </div>
+      <div class="container-fluid">
+        <div class="navbar-header">
+          <button
+            type="button"
+            class="navbar-toggle collapsed"
+            data-toggle="collapse"
+            data-target="#bs-example-navbar-collapse-1"
+            aria-expanded="false"
+          >
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href=""></a>
         </div>
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+          <ul class="nav navbar-nav">
+            <li><a href="index.html">Udacity Scholarship</a></li>
+            <li><a href="blogs.html">Student Blogs</a></li>
+          </ul>
+        </div>
+      </div>
     </nav>
     <div class="container">
-        <div class="page-header">
-            <h1 id="timeline">Add Links To Your Blog</h1>
-        </div>
-        <ul class="timelineBlog">
-            <li class="timelineBlog-inverted">
-                <div class="timelineBlog-badge info"><i class="glyphicon glyphicon-list-alt"></i></div>
-                <div class="timelineBlog-panel">
-                    <div class="timelineBlog-heading">
-                        <h4 class="timelineBlog-title">Julia Scheel (@julia scheel) and Uzodimma (@Uzodimma) - Getting Started with Cloud Formation <a href="https://medium.com/@julischeel/getting-started-with-cloud-formation-be28a7173c69"><i class="glyphicon glyphicon-link"></i></a></h4>
-                    </div>
-                    <div class="timelineBlog-body">
-                        <p>An intuitive step-by-step tutorial, required tools and term definitions of AWS CloudFormation </p>
-                        <p><small class="text-muted pull-right">Added on Feb 20, 2020</small></p>
-                    </div>
-                </div>
-            </li>
-            <li class="timelineBlog-inverted">
-                <div class="timelineBlog-badge info"><i class="glyphicon glyphicon-list-alt"></i></div>
-                <div class="timelineBlog-panel">
-                    <div class="timelineBlog-heading">
-                        <h4 class="timelineBlog-title">Nisha Bansal (@Nisha) - How to use git rebase to rewriting history <a href="https://medium.com/@nishabansal/git-rebase-in-rewriting-history-bbeefd01940?source=your_stories_page---------------------------" target="_blank" rel="noopener noreferr"><i class="glyphicon glyphicon-link"></i></a></h4>
-                    </div>
-                     <div class="timelineBlog-body">
-                        <p>When and how to use git rebase command to maintain a linear history with scrrenshots attached</p>
-                        <p><small class="text-muted pull-right">Added on Feb 16, 2020</small></p>
-                    </div>
-                </div>
-            </li>
-            <li class="timelineBlog-inverted">
-                <div class="timelineBlog-badge info"><i class="glyphicon glyphicon-list-alt"></i></div>
-                <div class="timelineBlog-panel">
-                    <div class="timelineBlog-heading">
-                        <h4 class="timelineBlog-title">Javier Arboleda (@Javier Arboleda) - How to deploy a static blog/website on AWS S3 <a href="http://javier-arboleda-blog.s3-website-us-east-1.amazonaws.com" target="_blank" rel="noopener noreferr"><i class="glyphicon glyphicon-link"></i></a></h4>
-                    </div>
-                    <div class="timelineBlog-body">
-                        <p align="justify">I am detailing the steps that I did take in order to host my static blog on AWS S3 for this challenge. I would like this be of help for people have not completed this challenge yet.<br /><br />
-                            I have pubished it also in <a href="https://medium.com/@reivaj49/how-to-deploy-a-static-blog-website-on-aws-s3-91cf362955fb?source=friends_link&sk=b03fd908277cde1d891688f504ffecb7" target="_blank" rel="noopener noreferr">Medium</a><br />
+      <div class="page-header">
+        <h1 id="timeline">Add Links To Your Blog</h1>
+      </div>
+      <ul class="timelineBlog">
+        <li class="timelineBlog-inverted">
+          <div class="timelineBlog-badge info">
+            <i class="glyphicon glyphicon-list-alt"></i>
+          </div>
+          <div class="timelineBlog-panel">
+            <div class="timelineBlog-heading">
+              <h4 class="timelineBlog-title">
+                Schitiz Sharama (@Schitiz Sharma) - How I supercharge Git with
+                GitLens for development
+                <a
+                  href="https://medium.com/@schitizsharma/git-lens-supercharge-your-git-capabilities-in-your-favorite-editor-19e23b3e6b9f"
+                  ><i class="glyphicon glyphicon-link"></i
+                ></a>
+              </h4>
+            </div>
+            <div class="timelineBlog-body">
+              <p>
+                Supercharging Git with GitLens provides the programmer with
+                great powers and how I use it dailyfor my projects
+              </p>
+              <p>
+                <small class="text-muted pull-right"
+                  >Added on Feb 21, 2020</small
+                >
+              </p>
+            </div>
+          </div>
+        </li>
+        <li class="timelineBlog-inverted">
+          <div class="timelineBlog-badge info">
+            <i class="glyphicon glyphicon-list-alt"></i>
+          </div>
+          <div class="timelineBlog-panel">
+            <div class="timelineBlog-heading">
+              <h4 class="timelineBlog-title">
+                Julia Scheel (@julia scheel) and Uzodimma (@Uzodimma) - Getting
+                Started with Cloud Formation
+                <a
+                  href="https://medium.com/@julischeel/getting-started-with-cloud-formation-be28a7173c69"
+                  ><i class="glyphicon glyphicon-link"></i
+                ></a>
+              </h4>
+            </div>
+            <div class="timelineBlog-body">
+              <p>
+                An intuitive step-by-step tutorial, required tools and term
+                definitions of AWS CloudFormation
+              </p>
+              <p>
+                <small class="text-muted pull-right"
+                  >Added on Feb 20, 2020</small
+                >
+              </p>
+            </div>
+          </div>
+        </li>
+        <li class="timelineBlog-inverted">
+          <div class="timelineBlog-badge info">
+            <i class="glyphicon glyphicon-list-alt"></i>
+          </div>
+          <div class="timelineBlog-panel">
+            <div class="timelineBlog-heading">
+              <h4 class="timelineBlog-title">
+                Nisha Bansal (@Nisha) - How to use git rebase to rewriting
+                history
+                <a
+                  href="https://medium.com/@nishabansal/git-rebase-in-rewriting-history-bbeefd01940?source=your_stories_page---------------------------"
+                  target="_blank"
+                  rel="noopener noreferr"
+                  ><i class="glyphicon glyphicon-link"></i
+                ></a>
+              </h4>
+            </div>
+            <div class="timelineBlog-body">
+              <p>
+                When and how to use git rebase command to maintain a linear
+                history with scrrenshots attached
+              </p>
+              <p>
+                <small class="text-muted pull-right"
+                  >Added on Feb 16, 2020</small
+                >
+              </p>
+            </div>
+          </div>
+        </li>
+        <li class="timelineBlog-inverted">
+          <div class="timelineBlog-badge info">
+            <i class="glyphicon glyphicon-list-alt"></i>
+          </div>
+          <div class="timelineBlog-panel">
+            <div class="timelineBlog-heading">
+              <h4 class="timelineBlog-title">
+                Javier Arboleda (@Javier Arboleda) - How to deploy a static
+                blog/website on AWS S3
+                <a
+                  href="http://javier-arboleda-blog.s3-website-us-east-1.amazonaws.com"
+                  target="_blank"
+                  rel="noopener noreferr"
+                  ><i class="glyphicon glyphicon-link"></i
+                ></a>
+              </h4>
+            </div>
+            <div class="timelineBlog-body">
+              <p align="justify">
+                I am detailing the steps that I did take in order to host my
+                static blog on AWS S3 for this challenge. I would like this be
+                of help for people have not completed this challenge yet.<br /><br />
+                I have pubished it also in
+                <a
+                  href="https://medium.com/@reivaj49/how-to-deploy-a-static-blog-website-on-aws-s3-91cf362955fb?source=friends_link&sk=b03fd908277cde1d891688f504ffecb7"
+                  target="_blank"
+                  rel="noopener noreferr"
+                  >Medium</a
+                ><br />
+              </p>
+              <p>
+                <small class="text-muted pull-right"
+                  >Added on Feb 14, 2020</small
+                >
+              </p>
+            </div>
+          </div>
+        </li>
+        <li class="timelineBlog-inverted">
+          <div class="timelineBlog-badge info">
+            <i class="glyphicon glyphicon-list-alt"></i>
+          </div>
+          <div class="timelineBlog-panel">
+            <div class="timelineBlog-heading">
+              <h4 class="timelineBlog-title">
+                Vitor Hugo (@silvalimavitorhugo) - Django app: storing and
+                serving static files through AWS S3 service<a
+                  href="https://medium.com/@silvalimavitorhugo/django-app-storing-and-serving-static-files-through-aws-s3-service-59445c57e89"
+                  ><i class="glyphicon glyphicon-link"></i
+                ></a>
+              </h4>
+            </div>
+            <div class="timelineBlog-body">
+              <p>
+                A lot of people have trouble when trying to store the static
+                file of a Django application on AWS S3 service.
+              </p>
+              <p>
+                In this article, I try to explain how to store the static and
+                media files of your Django application using AWS S3 service.
+              </p>
+              <p>
+                It is the second part of a series that Iwill cover deployment on
+                AWS, and setup of CI/CD pipelines .
+              </p>
+              <p>
+                <small class="text-muted pull-right"
+                  >Added on Feb 7, 2020</small
+                >
+              </p>
+            </div>
+          </div>
+        </li>
+        <li class="timelineBlog-inverted">
+          <div class="timelineBlog-badge info">
+            <i class="glyphicon glyphicon-list-alt"></i>
+          </div>
+          <div class="timelineBlog-panel">
+            <div class="timelineBlog-heading">
+              <h4 class="timelineBlog-title">
+                Aregbesola Olumuyiwa - Introduction to Cloud Security with AWS
+                <a
+                  href="https://medium.com/@aregbesolaolumuyiwa/introduction-to-cloud-security-with-aws-13d537ac5d03"
+                  ><i class="glyphicon glyphicon-link"></i
+                ></a>
+              </h4>
+            </div>
+            <div class="timelineBlog-body">
+              <p>
+                A beginners guide to security in the cloud and why AWS is a
+                great CSP
+              </p>
+              <p>
+                <small class="text-muted pull-right"
+                  >Added on Feb 6, 2020</small
+                >
+              </p>
+            </div>
+          </div>
+        </li>
+        <li class="timelineBlog-inverted">
+          <div class="timelineBlog-badge info">
+            <i class="glyphicon glyphicon-list-alt"></i>
+          </div>
+          <div class="timelineBlog-panel">
+            <div class="timelineBlog-heading">
+              <h4 class="timelineBlog-title">
+                Juan Lessey - Comprehending Docker Containers
+                <a
+                  href="https://medium.com/@jlessey/comprehending-docker-containers-949c63d2cda7"
+                  ><i class="glyphicon glyphicon-link"></i
+                ></a>
+              </h4>
+            </div>
+            <div class="timelineBlog-body">
+              <p>
+                Learn essential concepts about Docker Containers and see an
+                example of execution
+              </p>
+              <p>
+                <small class="text-muted pull-right"
+                  >Added on Feb 5, 2020</small
+                >
+              </p>
+            </div>
+          </div>
+        </li>
 
-                        </p>                        
-                        <p><small class="text-muted pull-right">Added on Feb 14, 2020</small></p>
-                    </div>
-                </div>
-            </li>
-            <li class="timelineBlog-inverted">
-                <div class="timelineBlog-badge info"><i class="glyphicon glyphicon-list-alt"></i></div>
-                <div class="timelineBlog-panel">
-                    <div class="timelineBlog-heading">
-                        <h4 class="timelineBlog-title">Vitor Hugo (@silvalimavitorhugo) - Django app: storing and serving static files through AWS S3 service<a href="https://medium.com/@silvalimavitorhugo/django-app-storing-and-serving-static-files-through-aws-s3-service-59445c57e89"><i class="glyphicon glyphicon-link"></i></a></h4>
-                    </div>
-                    <div class="timelineBlog-body">
-                        <p>A lot of people have trouble when trying to store the static file of a Django application on AWS S3 service.</p>
-                        <p>In this article, I try to explain how to store the static and media files of your Django application using AWS S3 service.</p>
-                        <p>It is the second part of a series that Iwill cover deployment on AWS, and setup of CI/CD pipelines .</p>
-                        <p><small class="text-muted pull-right">Added on Feb 7, 2020</small></p>
-                    </div>
-                </div>
-            </li>
-            <li class="timelineBlog-inverted">
-                <div class="timelineBlog-badge info"><i class="glyphicon glyphicon-list-alt"></i></div>
-                <div class="timelineBlog-panel">
-                    <div class="timelineBlog-heading">
-                        <h4 class="timelineBlog-title">Aregbesola Olumuyiwa - Introduction to Cloud Security with AWS <a href="https://medium.com/@aregbesolaolumuyiwa/introduction-to-cloud-security-with-aws-13d537ac5d03"><i class="glyphicon glyphicon-link"></i></a></h4>
-                    </div>
-                    <div class="timelineBlog-body">
-                        <p>A beginners guide to security in the cloud and why AWS is a great CSP </p>
-                        <p><small class="text-muted pull-right">Added on Feb 6, 2020</small></p>
-                    </div>
-                </div>
-            </li>
-            <li class="timelineBlog-inverted">
-                <div class="timelineBlog-badge info"><i class="glyphicon glyphicon-list-alt"></i></div>
-                <div class="timelineBlog-panel">
-                    <div class="timelineBlog-heading">
-                        <h4 class="timelineBlog-title">Juan Lessey - Comprehending Docker Containers <a href="https://medium.com/@jlessey/comprehending-docker-containers-949c63d2cda7"><i class="glyphicon glyphicon-link"></i></a></h4>
-                    </div>
-                    <div class="timelineBlog-body">
-                        <p>Learn essential concepts about Docker Containers and see an example of execution </p>
-                        <p><small class="text-muted pull-right">Added on Feb 5, 2020</small></p>
-                    </div>
-                </div>
-            </li>
-
-            <li class="timelineBlog-inverted">
-                <div class="timelineBlog-badge info"><i class="glyphicon glyphicon-list-alt"></i></div>
-                <div class="timelineBlog-panel">
-                    <div class="timelineBlog-heading">
-                        <h4 class="timelineBlog-title">Gabrielle Kurah - Connect to EC2 Instance using SSH (Windows) <a href="https://medium.com/@gabicle/connect-to-ec2-instance-using-ssh-windows-5dd458d57a88?source=friends_link&sk=aabab0e97cdba073631eae377a246e2d"><i class="glyphicon glyphicon-link"></i></a></h4>
-                    </div>
-                    <div class="timelineBlog-body">
-                        <p>An Easy way to SSH into your EC2 Instance on Windows </p>
-                        <p><small class="text-muted pull-right">Added on Feb 4, 2020</small></p>
-                    </div>
-                </div>
-            </li>            
-            <li class="timelineBlog-inverted">
-                <div class="timelineBlog-badge info"><i class="glyphicon glyphicon-list-alt"></i></div>
-                <div class="timelineBlog-panel">
-                    <div class="timelineBlog-heading">
-                        <h4 class="timelineBlog-title">Gabrielle Kurah - Git Ancestry References Explained <a href="https://medium.com/@gabicle/git-ancestry-references-explained-bd3a84a0b821?source=friends_link&sk=d6e447beab6fdac280b41cbe1581186a"><i class="glyphicon glyphicon-link"></i></a></h4>
-                    </div>
-                    <div class="timelineBlog-body">
-                        <p>Learn how to specify a commit in git using Ancestry references. </p>
-                        <p><small class="text-muted pull-right">Added on Feb 4, 2020</small></p>
-                    </div>
-                </div>
-            </li>
-            <li class="timelineBlog-inverted">
-                <div class="timelineBlog-badge info"><i class="glyphicon glyphicon-list-alt"></i></div>
-                <div class="timelineBlog-panel">
-                    <div class="timelineBlog-heading">
-                        <h4 class="timelineBlog-title">Gus Antoniassi (@GusAntoniassi) - AWS VPC Fundamentals - Part 1 <a href="https://medium.com/@GusAntoniassi/aws-vpc-fundamentals-part-1-92c73a07bc7"><i class="glyphicon glyphicon-link"></i></a></h4>
-                    </div>
-                    <div class="timelineBlog-body">
-                        <p>A couple of our fellow colleagues had problems understanding some of the underlying concepts of an AWS VPC (Virtual Private Cloud). </p>
-                        <p>In this article, I try to explain some of what I know about these concepts to give a better understanding of the big picture of Cloud Networking.</p>
-                        <p>It is the first part of a series that I plan to write on AWS VPCs.</p>
-                        <p><small class="text-muted pull-right">Added on Feb 1, 2020</small></p>
-                    </div>
-                </div>
-            </li>
-            <li class="timelineBlog-inverted">
-                <div class="timelineBlog-badge info"><i class="glyphicon glyphicon-list-alt"></i></div>
-                <div class="timelineBlog-panel">
-                    <div class="timelineBlog-heading">
-                        <h4 class="timelineBlog-title">Daniella Arnan-Nkansah <a href="https://ibreakgh.wordpress.com/2020/01/06/let-us-go-forking/"><i class="glyphicon glyphicon-link"></i></a></h4>
-                    </div>
-                    <div class="timelineBlog-body">
-                        <p>Working on other developer's repository</p>
-                        <p><small class="text-muted pull-right">Added On Jan 31, 2020</small></p>
-                    </div>
-                </div>
-            </li>
-            <li class="timelineBlog-inverted">
-                <div class="timelineBlog-badge info"><i class="glyphicon glyphicon-list-alt"></i></div>
-                <div class="timelineBlog-panel">
-                    <div class="timelineBlog-heading">
-                        <h4 class="timelineBlog-title">Nwobodo Leonard <a href="https://medium.com/@nwobodoe71/cloud-computing-fundamentals-bff583b93668"><i class="glyphicon glyphicon-link"></i></a></h4>
-                    </div>
-                    <div class="timelineBlog-body">
-                        <p>Introduction to cloud computing for total beginners</p>
-                        <p><small class="text-muted pull-right">Added On Jan 28, 2020</small></p>
-                    </div>
-                </div>
-            </li>
-            <li class="timelineBlog-inverted">
-                <div class="timelineBlog-badge info"><i class="glyphicon glyphicon-list-alt"></i></div>
-                <div class="timelineBlog-panel">
-                    <div class="timelineBlog-heading">
-                        <h4 class="timelineBlog-title">Mahmoud Sakr - 2020 is my AWS | Cloud | DevOps year <a href="https://www.linkedin.com/pulse/2020-my-aws-cloud-devops-year-mahmoud-sakr"><i class="glyphicon glyphicon-link"></i></a></h4>
-                    </div>
-                    <div class="timelineBlog-body">
-                        <p>my second blog, summarizing my achievement in the course</p>
-                        <p><small class="text-muted pull-right">Added On Jan 26, 2020</small></p>
-                    </div>
-                </div>
-            </li>
-            <li class="timelineBlog-inverted">
-                <div class="timelineBlog-badge info"><i class="glyphicon glyphicon-list-alt"></i></div>
-                <div class="timelineBlog-panel">
-                    <div class="timelineBlog-heading">
-                        <h4 class="timelineBlog-title">Waqas Sadiq (@Waqas) - Time Traveling in the Git World of Developers
-                            <a href="https://www.linkedin.com/pulse/time-traveling-git-world-developers-waqas-sadiq/?published=t"><i class="glyphicon glyphicon-link"></i></a></h4>
-                    </div>
-                    <div class="timelineBlog-body">
-                        <p>In this post, I shared my beautiful learning experience with Udacity and how the knowledge gained has helped me improve my Git and Github skills relating it to a past experience. I briefly touched on Git Tagging, Branching and merging. Enjoy...</p>
-                        <p><small class="text-muted pull-right">Added On Jan 22, 2020</small></p>
-                    </div>
-                </div>
-            </li>
-            <li class="timelineBlog-inverted">
-                <div class="timelineBlog-badge info"><i class="glyphicon glyphicon-list-alt"></i></div>
-                <div class="timelineBlog-panel">
-                    <div class="timelineBlog-heading">
-                        <h4 class="timelineBlog-title">Chijioke Nwagwu (@wisestMe) - My Problem With Udacity <a href="https://medium.com/@wyhzest/my-problem-with-udacity-58c6fc6a7f1c"><i class="glyphicon glyphicon-link"></i></a></h4>
-                    </div>
-                    <div class="timelineBlog-body">
-                        <p>In this post, I shared my beautiful learning experience with Udacity and how the knowledge gained has helped me improve my Git and Github skills relating it to a past experience. I briefly touched on Git Tagging, Branching and merging. Enjoy...</p>
-                        <p><small class="text-muted pull-right">Added On Jan 22, 2020</small></p>
-                    </div>
-                </div>
-            </li>
-            <li class="timelineBlog-inverted">
-                <div class="timelineBlog-badge info"><i class="glyphicon glyphicon-list-alt"></i></div>
-                <div class="timelineBlog-panel">
-                    <div class="timelineBlog-heading">
-                        <h4 class="timelineBlog-title">Cervantes Hernandez<a href="http://cerv.dev.s3-website-us-west-1.amazonaws.com/post/a001-servers-and-computing-power/"><i class="glyphicon glyphicon-link"></i></a></h4>
-                    </div>
-                    <div class="timelineBlog-body">
-                        <p><b>Foundational & compute service:</b> This lesson is about the importance of cloud servers and their security, and also about some AWS cloud services.</p>
-                        <p><small class="text-muted pull-right">Added On Jan 21, 2020</small></p>
-                    </div>
-                </div>
-            </li>
-            <li class="timelineBlog-inverted">
-                <div class="timelineBlog-badge info"><i class="glyphicon glyphicon-list-alt"></i></div>
-                <div class="timelineBlog-panel">
-                    <div class="timelineBlog-heading">
-                        <h4 class="timelineBlog-title">Leah Erb - Create an AWS Lambda Function using CloudFormation (Tutorial)<a href="https://leaherb.com/aws-lambda-tutorial-101/"><i class="glyphicon glyphicon-link"></i></a></h4>
-                    </div>
-                    <div class="timelineBlog-body">
-                        <p>With this tutorial, you learn the basics of AWS Lambda by creating a classic 'Hello World' function. You’ll use CloudFormation from the command line to create the Lambda function, then manually invoke it to prove it works.</p>
-                        <p><small class="text-muted pull-right">Added On Jan 21, 2020</small></p>
-                    </div>
-                </div>
-            </li>
-            <li class="timelineBlog-inverted">
-                <div class="timelineBlog-badge info"><i class="glyphicon glyphicon-list-alt"></i></div>
-                <div class="timelineBlog-panel">
-                    <div class="timelineBlog-heading">
-                        <h4 class="timelineBlog-title">Leah Erb - Getting Started with AWS CloudFormation (Tutorial)<a href="https://leaherb.com/aws-cloudformation-tutorial-101/"><i class="glyphicon glyphicon-link"></i></a></h4>
-                    </div>
-                    <div class="timelineBlog-body">
-                        <p>This step-by-step, hands-on AWS CloudFormation tutorial is ideal for beginners. You will create a simple stack containing a single resource. And you’ll do it twice: once AWS CloudFormation Console, then again with AWS Command Line Interface (AWS CLI).</p>
-                        <p><small class="text-muted pull-right">Added On Jan 21, 2020</small></p>
-                    </div>
-                </div>
-            </li>
-            <li class="timelineBlog-inverted">
-                  <div class="timelineBlog-badge info"><i class="glyphicon glyphicon-list-alt"></i></div>
-                  <div class="timelineBlog-panel">
-                      <div class="timelineBlog-heading">
-                          <h4 class="timelineBlog-title">Leah Erb - What is AWS CloudFormation?<a href="https://leaherb.com/what-is-aws-cloudformation/"><i class="glyphicon glyphicon-link"></i></a></h4>
-                      </div>
-                      <div class="timelineBlog-body">
-                          <p>If you have more than a few Amazon Web Services (AWS) resources, it can get tricky managing them each individually. AWS CloudFormation to the rescue!</p>
-                          <p><small class="text-muted pull-right">Added On Jan 21, 2020</small></p>
-                      </div>
-                  </div>
-            </li>
-            <li class="timelineBlog-inverted">
-                <div class="timelineBlog-badge info"><i class="glyphicon glyphicon-list-alt"></i></div>
-                <div class="timelineBlog-panel">
-                    <div class="timelineBlog-heading">
-                        <h4 class="timelineBlog-title">Leah Erb - GitHub Collaboration: a Partner Exercise<a href="https://leaherb.com/what-is-aws-cloudformation/"><i class="glyphicon glyphicon-link"></i></a></h4>
-                    </div>
-                    <div class="timelineBlog-body">
-                        <p>If you’re new to GitHub and are looking for a step-by-step guide on collaboration, this Exercise is for you!</p>
-                        <p><small class="text-muted pull-right">Added On Jan 21, 2020</small></p>
-                    </div>
-                </div>
-            </li>
-            <li class="timelineBlog-inverted">
-                <div class="timelineBlog-badge info"><i class="glyphicon glyphicon-list-alt"></i></div>
-                <div class="timelineBlog-panel">
-                    <div class="timelineBlog-heading">
-                        <h4 class="timelineBlog-title">Denise Nanni <a href="https://devdenise.com/how-to-set-up-a-wordpress-site-on-an-ec2-aws-instance-with-an-ssl-certificate/"><i class="glyphicon glyphicon-link"></i></a></h4>
-                    </div>
-                    <div class="timelineBlog-body">
-                        <p>A guide to set up a Wordpress site on an EC2 instance using a load balancer and an SSL certificate</p>
-                        <p><small class="text-muted pull-right">Added On Jan 19, 2020</small></p>
-                    </div>
-                </div>
-            </li>
-            <li class="timelineBlog-inverted">
-                <div class="timelineBlog-badge info"><i class="glyphicon glyphicon-list-alt"></i></div>
-                <div class="timelineBlog-panel">
-                    <div class="timelineBlog-heading">
-                        <h4 class="timelineBlog-title">Mahmoud Sakr - My first and not the last blog <a href="https://medium.com/@ma7moud.sakr/host-your-static-website-on-aws-s3-f492daf4d5ad"><i class="glyphicon glyphicon-link"></i></a></h4>
-                    </div>
-                    <div class="timelineBlog-body">
-                        <p>Host your static website on AWS S3 without registering a domain.</p>
-                        <p><small class="text-muted pull-right">Added On Jan 19, 2020</small></p>
-                    </div>
-                </div>
-            </li>
-            <li class="timelineBlog-inverted">
-                <div class="timelineBlog-badge info"><i class="glyphicon glyphicon-list-alt"></i></div>
-                <div class="timelineBlog-panel">
-                    <div class="timelineBlog-heading">
-                        <h4 class="timelineBlog-title">Alberto Pardo <a href="https://medium.com/@albertopardomarti/learning-aws-cloudformation-b0f598fae491"><i class="glyphicon glyphicon-link"></i></a></h4>
-                    </div>
-                    <div class="timelineBlog-body">
-                        <p><b>Learning AWS CloudFormation</b>. Lesson 21 Networking Infrastructure.</p>
-                        <p><small class="text-muted pull-right">Added On Jan 19, 2020</small></p>
-                    </div>
-                </div>
-            </li>
-            <li class="timelineBlog-inverted">
-                <div class="timelineBlog-badge info"><i class="glyphicon glyphicon-list-alt"></i></div>
-                <div class="timelineBlog-panel">
-                    <div class="timelineBlog-heading">
-                        <h4 class="timelineBlog-title">Ankur Shishodia <a href="https://medium.com/@ankur201996/introduction-to-cloud-computing-8fefd278640f?source=friends_link&sk=7b43e8b911d55bb6fd197d32252c7ca2"><i class="glyphicon glyphicon-link"></i></a></h4>
-                    </div>
-                    <div class="timelineBlog-body">
-                        <p>The first blog towards cloud computing:Introduction to Cloud Computing</p>
-                        <p><small class="text-muted pull-right">Added On Jan 18, 2020</small></p>
-                    </div>
-                </div>
-            </li>
-            <li class="timelineBlog-inverted">
-                <div class="timelineBlog-badge info"><i class="glyphicon glyphicon-list-alt"></i></div>
-                <div class="timelineBlog-panel">
-                    <div class="timelineBlog-heading">
-                        <h4 class="timelineBlog-title">C.K. Bhatia ( Chetan Kumar ) <a href="https://medium.com/@chetansain86/the-beginner-friendly-basic-git-guide-4a026f8bf01"><i class="glyphicon glyphicon-link"></i></a></h4>
-                    </div>
-                    <div class="timelineBlog-body">
-                        <p>The 1st part of the Git guide: the beginner friendly-basic git guide.</p>
-                        <p><small class="text-muted pull-right">Added On Jan 17, 2020</small></p>
-                    </div>
-                </div>
-            </li>
-            <li class="timelineBlog-inverted">
-                <div class="timelineBlog-badge info"><i class="glyphicon glyphicon-list-alt"></i></div>
-                <div class="timelineBlog-panel">
-                    <div class="timelineBlog-heading">
-                        <h4 class="timelineBlog-title">Cornel Smith <a href="https://medium.com/@ss2smith/bertelsmann-challenge-cloud-rebase-one-of-the-most-powerful-git-commands-99bf385841a2"><i class="glyphicon glyphicon-link"></i></a></h4>
-                    </div>
-                    <div class="timelineBlog-body">
-                        <p>My first blog themed toward git: learn the basic ways to use rebase.</p>
-                        <p><small class="text-muted pull-right">Added On Jan 15, 2020</small></p>
-                    </div>
-                </div>
-            </li>
-            <li class="timelineBlog-inverted">
-                <div class="timelineBlog-badge info"><i class="glyphicon glyphicon-list-alt"></i></div>
-                <div class="timelineBlog-panel">
-                    <div class="timelineBlog-heading">
-                        <h4 class="timelineBlog-title">Lovepreet Singh<a href="https://medium.com/@lovepreet013singhhundal/git-merge-vs-git-rebase-d386e1f3cda7"><i class="glyphicon glyphicon-link"></i></a></h4>
-                    </div>
-                    <div class="timelineBlog-body">
-                        <p>Git Merge and Git Rebase </p>
-                        <p>Two principle approaches to integrate changes from one branch into another: the merge and the rebase. Git Merge and Git Rebase serve the same purpose. They are designed to integrate changes from multiple branches into one. Although the final goal is the same, those two methods achieve it in different ways.</p>
-                        <p><small class="text-muted pull-right">Added On Jan 14, 2020</small></p>
-                    </div>
-                </div>
-            </li>
-            <li class="timelineBlog-inverted">
-                <div class="timelineBlog-badge info"><i class="glyphicon glyphicon-list-alt"></i></div>
-                <div class="timelineBlog-panel">
-                    <div class="timelineBlog-heading">
-                        <h4 class="timelineBlog-title">InnociousBliss <a href="https://ciousonline-5e4172.ingress-alpha.easywp.com/"><i class="glyphicon glyphicon-link"></i></a></h4>
-                    </div>
-                    <div class="timelineBlog-body">
-                        <p>This is my very first blog. I am excited to really own a blog. My next stop would be gain an in-depth understanding of the web through this first launch</p>
-                        <p>I want to be a fulltime DevOps with appropriate knowledge on the Web, from frontend to backend. I guess this is just the beginning of something big.</p>
-                        <p><small class="text-muted pull-right">Added On Jan 12, 2020</small></p>
-                    </div>
-                </div>
-            </li>
-            <li class="timelineBlog-inverted">
-                <div class="timelineBlog-badge info"><i class="glyphicon glyphicon-list-alt"></i></div>
-                <div class="timelineBlog-panel">
-                    <div class="timelineBlog-heading">
-                        <h4 class="timelineBlog-title">Rahul Changlani <a
-                                href="https://medium.com/@rahul.changlani/3-useful-less-used-git-commands-66fbeae7df8b"><i
-                                    class="glyphicon glyphicon-link"></i></a></h4>
-                    </div>
-                    <div class="timelineBlog-body">
-                        <p>This is my blog article for Advanced Git usage for developers.  </p>
-                        <p><small class="text-muted pull-right">Added On Jan 04, 2020</small></p>
-                    </div>
-                </div>
-            </li>
-            <li class="timelineBlog-inverted">
-                <div class="timelineBlog-badge info"><i class="glyphicon glyphicon-list-alt"></i></div>
-                <div class="timelineBlog-panel">
-                    <div class="timelineBlog-heading">
-                        <h4 class="timelineBlog-title">Robert Pullan <a href="https://www.titanprogramming.co.uk/Home/Blog"><i class="glyphicon glyphicon-link"></i></a></h4>
-                    </div>
-                    <div class="timelineBlog-body">
-                        <p>This is my new blog website which will contain articles for Git, Cloud Computing, AWS and more. Currently, I'm working on adding articles for Git and will then move to Cloud Computing.</p>
-                        <p>I enjoy writing the articles to help consolidate my learning on the topics.</p>
-                        <p><small class="text-muted pull-right">Added On Jan 04, 2020</small></p>
-                    </div>
-                </div>
-            </li>
-            <li class="timelineBlog-inverted">
-                <div class="timelineBlog-badge info"><i class="glyphicon glyphicon-list-alt"></i></div>
-                <div class="timelineBlog-panel">
-                    <div class="timelineBlog-heading">
-                        <h4 class="timelineBlog-title">Adetoun O. <a href="https://medium.com/@detoun4med/my-devops-journey-creating-infrastructure-diagram-using-lucidchart-b8725d5cdbdc"><i class="glyphicon glyphicon-link"></i></a></h4>
-                    </div>
-                    <div class="timelineBlog-body">
-                        <p>My first timer/learners blog on Infrastructure Diagram</p>
-                        <p><small class="text-muted pull-right">Added On Jan 02, 2020</small></p>
-                    </div>
-                </div>
-            </li>
-            <li class="timelineBlog-inverted">
-                <div class="timelineBlog-badge info"><i class="glyphicon glyphicon-list-alt"></i></div>
-                <div class="timelineBlog-panel">
-                    <div class="timelineBlog-heading">
-                        <h4 class="timelineBlog-title">Leah Erb - Create Amazon EC2 Key Pairs Using AWS CLI <a href="https://leaherb.com/create-amazon-key-pair-using-aws-cli/"><i class="glyphicon glyphicon-link"></i></a></h4>
-                    </div>
-                    <div class="timelineBlog-body">
-                        <p>Want to connect to that AWS EC2 instance you’re launching? Then you’ll need a key pair. Here are 2 easy steps for creating a key pair without having to go to the Amazon Management Console.</p>
-                        <p><small class="text-muted pull-right">Added On Dec 30, 2019</small></p>
-                    </div>
-                </div>
-            </li>
-            <li class="timelineBlog-inverted">
-                <div class="timelineBlog-badge info"><i class="glyphicon glyphicon-list-alt"></i></div>
-                <div class="timelineBlog-panel">
-                    <div class="timelineBlog-heading">
-                        <h4 class="timelineBlog-title">Shubham Singh <a href="http://bit.ly/2QsE291"><i class="glyphicon glyphicon-link"></i></a></h4>
-                    </div>
-                    <div class="timelineBlog-body">
-                        <p>My blog is themed towards AWS, Infrastructure as Code.</p>
-                        <p><small class="text-muted pull-right">Added On Dec 29, 2019</small></p>
-                    </div>
-                </div>
-            </li>
-            <li class="timelineBlog-inverted">
-                <div class="timelineBlog-badge info"><i class="glyphicon glyphicon-list-alt"></i></div>
-                <div class="timelineBlog-panel">
-                    <div class="timelineBlog-heading">
-                        <h4 class="timelineBlog-title">Andrea Grande <a href="https://medium.com/@ookiisan/setting-up-aws-free-tier-account-and-billing-alarm-9522c490bb7f?sk=273e328b1f53bd0f41575ce09a339ed5"><i class="glyphicon glyphicon-link"></i></a></h4>
-                    </div>
-                    <div class="timelineBlog-body">
-                        <p>A brief guide that may help you to setup your AWS Free-Tier account and CloudWatch billing alarm.</p>
-                        <p><small class="text-muted pull-right">Added On 27/12/2019</small></p>
-                    </div>
-                </div>
-            </li>
-            <li class="timelineBlog-inverted">
-                <div class="timelineBlog-badge info"><i class="glyphicon glyphicon-list-alt"></i></div>
-                <div class="timelineBlog-panel">
-                    <div class="timelineBlog-heading">
-                        <h4 class="timelineBlog-title">Ahmed Monjurul Hasan <a href="https://medium.com/@hasan.ahmedmonjurul/getting-started-with-git-in-bertelsmann-tech-scholarship-b5d4b349ac6"><i class="glyphicon glyphicon-link"></i></a></h4>
-                    </div>
-                    <div class="timelineBlog-body">
-                        <p>My blog post gives a hands-on guide on getting started with Git in Bertelsmann Tech Scholarship</p>
-                        <p><small class="text-muted pull-right">Added On Dec 27, 2019</small></p>
-                    </div>
-                </div>
-            </li>
-            <li class="timelineBlog-inverted">
-                <div class="timelineBlog-badge info"><i class="glyphicon glyphicon-list-alt"></i></div>
-                <div class="timelineBlog-panel">
-                    <div class="timelineBlog-heading">
-                        <h4 class="timelineBlog-title">Ahiwe Onyebuchi Valentine <a href="https://medium.com/@vahiwe/my-journey-into-devops-e0d3ddee77a1?sk=10b9a706490c2d9d5e9995fffa3d4638"><i class="glyphicon glyphicon-link"></i></a></h4>
-                    </div>
-                    <div class="timelineBlog-body">
-                        <p>My blog post talks about AWS, GCP and Heroku. It also gives some explanation on IAAS, PAAS and SAAS</p>
-                        <p><small class="text-muted pull-right">Added On Dec 22, 2019</small></p>
-                    </div>
-                </div>
-            </li>
-        </ul>
+        <li class="timelineBlog-inverted">
+          <div class="timelineBlog-badge info">
+            <i class="glyphicon glyphicon-list-alt"></i>
+          </div>
+          <div class="timelineBlog-panel">
+            <div class="timelineBlog-heading">
+              <h4 class="timelineBlog-title">
+                Gabrielle Kurah - Connect to EC2 Instance using SSH (Windows)
+                <a
+                  href="https://medium.com/@gabicle/connect-to-ec2-instance-using-ssh-windows-5dd458d57a88?source=friends_link&sk=aabab0e97cdba073631eae377a246e2d"
+                  ><i class="glyphicon glyphicon-link"></i
+                ></a>
+              </h4>
+            </div>
+            <div class="timelineBlog-body">
+              <p>An Easy way to SSH into your EC2 Instance on Windows</p>
+              <p>
+                <small class="text-muted pull-right"
+                  >Added on Feb 4, 2020</small
+                >
+              </p>
+            </div>
+          </div>
+        </li>
+        <li class="timelineBlog-inverted">
+          <div class="timelineBlog-badge info">
+            <i class="glyphicon glyphicon-list-alt"></i>
+          </div>
+          <div class="timelineBlog-panel">
+            <div class="timelineBlog-heading">
+              <h4 class="timelineBlog-title">
+                Gabrielle Kurah - Git Ancestry References Explained
+                <a
+                  href="https://medium.com/@gabicle/git-ancestry-references-explained-bd3a84a0b821?source=friends_link&sk=d6e447beab6fdac280b41cbe1581186a"
+                  ><i class="glyphicon glyphicon-link"></i
+                ></a>
+              </h4>
+            </div>
+            <div class="timelineBlog-body">
+              <p>
+                Learn how to specify a commit in git using Ancestry references.
+              </p>
+              <p>
+                <small class="text-muted pull-right"
+                  >Added on Feb 4, 2020</small
+                >
+              </p>
+            </div>
+          </div>
+        </li>
+        <li class="timelineBlog-inverted">
+          <div class="timelineBlog-badge info">
+            <i class="glyphicon glyphicon-list-alt"></i>
+          </div>
+          <div class="timelineBlog-panel">
+            <div class="timelineBlog-heading">
+              <h4 class="timelineBlog-title">
+                Gus Antoniassi (@GusAntoniassi) - AWS VPC Fundamentals - Part 1
+                <a
+                  href="https://medium.com/@GusAntoniassi/aws-vpc-fundamentals-part-1-92c73a07bc7"
+                  ><i class="glyphicon glyphicon-link"></i
+                ></a>
+              </h4>
+            </div>
+            <div class="timelineBlog-body">
+              <p>
+                A couple of our fellow colleagues had problems understanding
+                some of the underlying concepts of an AWS VPC (Virtual Private
+                Cloud).
+              </p>
+              <p>
+                In this article, I try to explain some of what I know about
+                these concepts to give a better understanding of the big picture
+                of Cloud Networking.
+              </p>
+              <p>
+                It is the first part of a series that I plan to write on AWS
+                VPCs.
+              </p>
+              <p>
+                <small class="text-muted pull-right"
+                  >Added on Feb 1, 2020</small
+                >
+              </p>
+            </div>
+          </div>
+        </li>
+        <li class="timelineBlog-inverted">
+          <div class="timelineBlog-badge info">
+            <i class="glyphicon glyphicon-list-alt"></i>
+          </div>
+          <div class="timelineBlog-panel">
+            <div class="timelineBlog-heading">
+              <h4 class="timelineBlog-title">
+                Daniella Arnan-Nkansah
+                <a
+                  href="https://ibreakgh.wordpress.com/2020/01/06/let-us-go-forking/"
+                  ><i class="glyphicon glyphicon-link"></i
+                ></a>
+              </h4>
+            </div>
+            <div class="timelineBlog-body">
+              <p>Working on other developer's repository</p>
+              <p>
+                <small class="text-muted pull-right"
+                  >Added On Jan 31, 2020</small
+                >
+              </p>
+            </div>
+          </div>
+        </li>
+        <li class="timelineBlog-inverted">
+          <div class="timelineBlog-badge info">
+            <i class="glyphicon glyphicon-list-alt"></i>
+          </div>
+          <div class="timelineBlog-panel">
+            <div class="timelineBlog-heading">
+              <h4 class="timelineBlog-title">
+                Nwobodo Leonard
+                <a
+                  href="https://medium.com/@nwobodoe71/cloud-computing-fundamentals-bff583b93668"
+                  ><i class="glyphicon glyphicon-link"></i
+                ></a>
+              </h4>
+            </div>
+            <div class="timelineBlog-body">
+              <p>Introduction to cloud computing for total beginners</p>
+              <p>
+                <small class="text-muted pull-right"
+                  >Added On Jan 28, 2020</small
+                >
+              </p>
+            </div>
+          </div>
+        </li>
+        <li class="timelineBlog-inverted">
+          <div class="timelineBlog-badge info">
+            <i class="glyphicon glyphicon-list-alt"></i>
+          </div>
+          <div class="timelineBlog-panel">
+            <div class="timelineBlog-heading">
+              <h4 class="timelineBlog-title">
+                Mahmoud Sakr - 2020 is my AWS | Cloud | DevOps year
+                <a
+                  href="https://www.linkedin.com/pulse/2020-my-aws-cloud-devops-year-mahmoud-sakr"
+                  ><i class="glyphicon glyphicon-link"></i
+                ></a>
+              </h4>
+            </div>
+            <div class="timelineBlog-body">
+              <p>my second blog, summarizing my achievement in the course</p>
+              <p>
+                <small class="text-muted pull-right"
+                  >Added On Jan 26, 2020</small
+                >
+              </p>
+            </div>
+          </div>
+        </li>
+        <li class="timelineBlog-inverted">
+          <div class="timelineBlog-badge info">
+            <i class="glyphicon glyphicon-list-alt"></i>
+          </div>
+          <div class="timelineBlog-panel">
+            <div class="timelineBlog-heading">
+              <h4 class="timelineBlog-title">
+                Waqas Sadiq (@Waqas) - Time Traveling in the Git World of
+                Developers
+                <a
+                  href="https://www.linkedin.com/pulse/time-traveling-git-world-developers-waqas-sadiq/?published=t"
+                  ><i class="glyphicon glyphicon-link"></i
+                ></a>
+              </h4>
+            </div>
+            <div class="timelineBlog-body">
+              <p>
+                In this post, I shared my beautiful learning experience with
+                Udacity and how the knowledge gained has helped me improve my
+                Git and Github skills relating it to a past experience. I
+                briefly touched on Git Tagging, Branching and merging. Enjoy...
+              </p>
+              <p>
+                <small class="text-muted pull-right"
+                  >Added On Jan 22, 2020</small
+                >
+              </p>
+            </div>
+          </div>
+        </li>
+        <li class="timelineBlog-inverted">
+          <div class="timelineBlog-badge info">
+            <i class="glyphicon glyphicon-list-alt"></i>
+          </div>
+          <div class="timelineBlog-panel">
+            <div class="timelineBlog-heading">
+              <h4 class="timelineBlog-title">
+                Chijioke Nwagwu (@wisestMe) - My Problem With Udacity
+                <a
+                  href="https://medium.com/@wyhzest/my-problem-with-udacity-58c6fc6a7f1c"
+                  ><i class="glyphicon glyphicon-link"></i
+                ></a>
+              </h4>
+            </div>
+            <div class="timelineBlog-body">
+              <p>
+                In this post, I shared my beautiful learning experience with
+                Udacity and how the knowledge gained has helped me improve my
+                Git and Github skills relating it to a past experience. I
+                briefly touched on Git Tagging, Branching and merging. Enjoy...
+              </p>
+              <p>
+                <small class="text-muted pull-right"
+                  >Added On Jan 22, 2020</small
+                >
+              </p>
+            </div>
+          </div>
+        </li>
+        <li class="timelineBlog-inverted">
+          <div class="timelineBlog-badge info">
+            <i class="glyphicon glyphicon-list-alt"></i>
+          </div>
+          <div class="timelineBlog-panel">
+            <div class="timelineBlog-heading">
+              <h4 class="timelineBlog-title">
+                Cervantes Hernandez<a
+                  href="http://cerv.dev.s3-website-us-west-1.amazonaws.com/post/a001-servers-and-computing-power/"
+                  ><i class="glyphicon glyphicon-link"></i
+                ></a>
+              </h4>
+            </div>
+            <div class="timelineBlog-body">
+              <p>
+                <b>Foundational & compute service:</b> This lesson is about the
+                importance of cloud servers and their security, and also about
+                some AWS cloud services.
+              </p>
+              <p>
+                <small class="text-muted pull-right"
+                  >Added On Jan 21, 2020</small
+                >
+              </p>
+            </div>
+          </div>
+        </li>
+        <li class="timelineBlog-inverted">
+          <div class="timelineBlog-badge info">
+            <i class="glyphicon glyphicon-list-alt"></i>
+          </div>
+          <div class="timelineBlog-panel">
+            <div class="timelineBlog-heading">
+              <h4 class="timelineBlog-title">
+                Leah Erb - Create an AWS Lambda Function using CloudFormation
+                (Tutorial)<a href="https://leaherb.com/aws-lambda-tutorial-101/"
+                  ><i class="glyphicon glyphicon-link"></i
+                ></a>
+              </h4>
+            </div>
+            <div class="timelineBlog-body">
+              <p>
+                With this tutorial, you learn the basics of AWS Lambda by
+                creating a classic 'Hello World' function. You’ll use
+                CloudFormation from the command line to create the Lambda
+                function, then manually invoke it to prove it works.
+              </p>
+              <p>
+                <small class="text-muted pull-right"
+                  >Added On Jan 21, 2020</small
+                >
+              </p>
+            </div>
+          </div>
+        </li>
+        <li class="timelineBlog-inverted">
+          <div class="timelineBlog-badge info">
+            <i class="glyphicon glyphicon-list-alt"></i>
+          </div>
+          <div class="timelineBlog-panel">
+            <div class="timelineBlog-heading">
+              <h4 class="timelineBlog-title">
+                Leah Erb - Getting Started with AWS CloudFormation (Tutorial)<a
+                  href="https://leaherb.com/aws-cloudformation-tutorial-101/"
+                  ><i class="glyphicon glyphicon-link"></i
+                ></a>
+              </h4>
+            </div>
+            <div class="timelineBlog-body">
+              <p>
+                This step-by-step, hands-on AWS CloudFormation tutorial is ideal
+                for beginners. You will create a simple stack containing a
+                single resource. And you’ll do it twice: once AWS CloudFormation
+                Console, then again with AWS Command Line Interface (AWS CLI).
+              </p>
+              <p>
+                <small class="text-muted pull-right"
+                  >Added On Jan 21, 2020</small
+                >
+              </p>
+            </div>
+          </div>
+        </li>
+        <li class="timelineBlog-inverted">
+          <div class="timelineBlog-badge info">
+            <i class="glyphicon glyphicon-list-alt"></i>
+          </div>
+          <div class="timelineBlog-panel">
+            <div class="timelineBlog-heading">
+              <h4 class="timelineBlog-title">
+                Leah Erb - What is AWS CloudFormation?<a
+                  href="https://leaherb.com/what-is-aws-cloudformation/"
+                  ><i class="glyphicon glyphicon-link"></i
+                ></a>
+              </h4>
+            </div>
+            <div class="timelineBlog-body">
+              <p>
+                If you have more than a few Amazon Web Services (AWS) resources,
+                it can get tricky managing them each individually. AWS
+                CloudFormation to the rescue!
+              </p>
+              <p>
+                <small class="text-muted pull-right"
+                  >Added On Jan 21, 2020</small
+                >
+              </p>
+            </div>
+          </div>
+        </li>
+        <li class="timelineBlog-inverted">
+          <div class="timelineBlog-badge info">
+            <i class="glyphicon glyphicon-list-alt"></i>
+          </div>
+          <div class="timelineBlog-panel">
+            <div class="timelineBlog-heading">
+              <h4 class="timelineBlog-title">
+                Leah Erb - GitHub Collaboration: a Partner Exercise<a
+                  href="https://leaherb.com/what-is-aws-cloudformation/"
+                  ><i class="glyphicon glyphicon-link"></i
+                ></a>
+              </h4>
+            </div>
+            <div class="timelineBlog-body">
+              <p>
+                If you’re new to GitHub and are looking for a step-by-step guide
+                on collaboration, this Exercise is for you!
+              </p>
+              <p>
+                <small class="text-muted pull-right"
+                  >Added On Jan 21, 2020</small
+                >
+              </p>
+            </div>
+          </div>
+        </li>
+        <li class="timelineBlog-inverted">
+          <div class="timelineBlog-badge info">
+            <i class="glyphicon glyphicon-list-alt"></i>
+          </div>
+          <div class="timelineBlog-panel">
+            <div class="timelineBlog-heading">
+              <h4 class="timelineBlog-title">
+                Denise Nanni
+                <a
+                  href="https://devdenise.com/how-to-set-up-a-wordpress-site-on-an-ec2-aws-instance-with-an-ssl-certificate/"
+                  ><i class="glyphicon glyphicon-link"></i
+                ></a>
+              </h4>
+            </div>
+            <div class="timelineBlog-body">
+              <p>
+                A guide to set up a Wordpress site on an EC2 instance using a
+                load balancer and an SSL certificate
+              </p>
+              <p>
+                <small class="text-muted pull-right"
+                  >Added On Jan 19, 2020</small
+                >
+              </p>
+            </div>
+          </div>
+        </li>
+        <li class="timelineBlog-inverted">
+          <div class="timelineBlog-badge info">
+            <i class="glyphicon glyphicon-list-alt"></i>
+          </div>
+          <div class="timelineBlog-panel">
+            <div class="timelineBlog-heading">
+              <h4 class="timelineBlog-title">
+                Mahmoud Sakr - My first and not the last blog
+                <a
+                  href="https://medium.com/@ma7moud.sakr/host-your-static-website-on-aws-s3-f492daf4d5ad"
+                  ><i class="glyphicon glyphicon-link"></i
+                ></a>
+              </h4>
+            </div>
+            <div class="timelineBlog-body">
+              <p>
+                Host your static website on AWS S3 without registering a domain.
+              </p>
+              <p>
+                <small class="text-muted pull-right"
+                  >Added On Jan 19, 2020</small
+                >
+              </p>
+            </div>
+          </div>
+        </li>
+        <li class="timelineBlog-inverted">
+          <div class="timelineBlog-badge info">
+            <i class="glyphicon glyphicon-list-alt"></i>
+          </div>
+          <div class="timelineBlog-panel">
+            <div class="timelineBlog-heading">
+              <h4 class="timelineBlog-title">
+                Alberto Pardo
+                <a
+                  href="https://medium.com/@albertopardomarti/learning-aws-cloudformation-b0f598fae491"
+                  ><i class="glyphicon glyphicon-link"></i
+                ></a>
+              </h4>
+            </div>
+            <div class="timelineBlog-body">
+              <p>
+                <b>Learning AWS CloudFormation</b>. Lesson 21 Networking
+                Infrastructure.
+              </p>
+              <p>
+                <small class="text-muted pull-right"
+                  >Added On Jan 19, 2020</small
+                >
+              </p>
+            </div>
+          </div>
+        </li>
+        <li class="timelineBlog-inverted">
+          <div class="timelineBlog-badge info">
+            <i class="glyphicon glyphicon-list-alt"></i>
+          </div>
+          <div class="timelineBlog-panel">
+            <div class="timelineBlog-heading">
+              <h4 class="timelineBlog-title">
+                Ankur Shishodia
+                <a
+                  href="https://medium.com/@ankur201996/introduction-to-cloud-computing-8fefd278640f?source=friends_link&sk=7b43e8b911d55bb6fd197d32252c7ca2"
+                  ><i class="glyphicon glyphicon-link"></i
+                ></a>
+              </h4>
+            </div>
+            <div class="timelineBlog-body">
+              <p>
+                The first blog towards cloud computing:Introduction to Cloud
+                Computing
+              </p>
+              <p>
+                <small class="text-muted pull-right"
+                  >Added On Jan 18, 2020</small
+                >
+              </p>
+            </div>
+          </div>
+        </li>
+        <li class="timelineBlog-inverted">
+          <div class="timelineBlog-badge info">
+            <i class="glyphicon glyphicon-list-alt"></i>
+          </div>
+          <div class="timelineBlog-panel">
+            <div class="timelineBlog-heading">
+              <h4 class="timelineBlog-title">
+                C.K. Bhatia ( Chetan Kumar )
+                <a
+                  href="https://medium.com/@chetansain86/the-beginner-friendly-basic-git-guide-4a026f8bf01"
+                  ><i class="glyphicon glyphicon-link"></i
+                ></a>
+              </h4>
+            </div>
+            <div class="timelineBlog-body">
+              <p>
+                The 1st part of the Git guide: the beginner friendly-basic git
+                guide.
+              </p>
+              <p>
+                <small class="text-muted pull-right"
+                  >Added On Jan 17, 2020</small
+                >
+              </p>
+            </div>
+          </div>
+        </li>
+        <li class="timelineBlog-inverted">
+          <div class="timelineBlog-badge info">
+            <i class="glyphicon glyphicon-list-alt"></i>
+          </div>
+          <div class="timelineBlog-panel">
+            <div class="timelineBlog-heading">
+              <h4 class="timelineBlog-title">
+                Cornel Smith
+                <a
+                  href="https://medium.com/@ss2smith/bertelsmann-challenge-cloud-rebase-one-of-the-most-powerful-git-commands-99bf385841a2"
+                  ><i class="glyphicon glyphicon-link"></i
+                ></a>
+              </h4>
+            </div>
+            <div class="timelineBlog-body">
+              <p>
+                My first blog themed toward git: learn the basic ways to use
+                rebase.
+              </p>
+              <p>
+                <small class="text-muted pull-right"
+                  >Added On Jan 15, 2020</small
+                >
+              </p>
+            </div>
+          </div>
+        </li>
+        <li class="timelineBlog-inverted">
+          <div class="timelineBlog-badge info">
+            <i class="glyphicon glyphicon-list-alt"></i>
+          </div>
+          <div class="timelineBlog-panel">
+            <div class="timelineBlog-heading">
+              <h4 class="timelineBlog-title">
+                Lovepreet Singh<a
+                  href="https://medium.com/@lovepreet013singhhundal/git-merge-vs-git-rebase-d386e1f3cda7"
+                  ><i class="glyphicon glyphicon-link"></i
+                ></a>
+              </h4>
+            </div>
+            <div class="timelineBlog-body">
+              <p>Git Merge and Git Rebase</p>
+              <p>
+                Two principle approaches to integrate changes from one branch
+                into another: the merge and the rebase. Git Merge and Git Rebase
+                serve the same purpose. They are designed to integrate changes
+                from multiple branches into one. Although the final goal is the
+                same, those two methods achieve it in different ways.
+              </p>
+              <p>
+                <small class="text-muted pull-right"
+                  >Added On Jan 14, 2020</small
+                >
+              </p>
+            </div>
+          </div>
+        </li>
+        <li class="timelineBlog-inverted">
+          <div class="timelineBlog-badge info">
+            <i class="glyphicon glyphicon-list-alt"></i>
+          </div>
+          <div class="timelineBlog-panel">
+            <div class="timelineBlog-heading">
+              <h4 class="timelineBlog-title">
+                InnociousBliss
+                <a href="https://ciousonline-5e4172.ingress-alpha.easywp.com/"
+                  ><i class="glyphicon glyphicon-link"></i
+                ></a>
+              </h4>
+            </div>
+            <div class="timelineBlog-body">
+              <p>
+                This is my very first blog. I am excited to really own a blog.
+                My next stop would be gain an in-depth understanding of the web
+                through this first launch
+              </p>
+              <p>
+                I want to be a fulltime DevOps with appropriate knowledge on the
+                Web, from frontend to backend. I guess this is just the
+                beginning of something big.
+              </p>
+              <p>
+                <small class="text-muted pull-right"
+                  >Added On Jan 12, 2020</small
+                >
+              </p>
+            </div>
+          </div>
+        </li>
+        <li class="timelineBlog-inverted">
+          <div class="timelineBlog-badge info">
+            <i class="glyphicon glyphicon-list-alt"></i>
+          </div>
+          <div class="timelineBlog-panel">
+            <div class="timelineBlog-heading">
+              <h4 class="timelineBlog-title">
+                Rahul Changlani
+                <a
+                  href="https://medium.com/@rahul.changlani/3-useful-less-used-git-commands-66fbeae7df8b"
+                  ><i class="glyphicon glyphicon-link"></i
+                ></a>
+              </h4>
+            </div>
+            <div class="timelineBlog-body">
+              <p>
+                This is my blog article for Advanced Git usage for developers.
+              </p>
+              <p>
+                <small class="text-muted pull-right"
+                  >Added On Jan 04, 2020</small
+                >
+              </p>
+            </div>
+          </div>
+        </li>
+        <li class="timelineBlog-inverted">
+          <div class="timelineBlog-badge info">
+            <i class="glyphicon glyphicon-list-alt"></i>
+          </div>
+          <div class="timelineBlog-panel">
+            <div class="timelineBlog-heading">
+              <h4 class="timelineBlog-title">
+                Robert Pullan
+                <a href="https://www.titanprogramming.co.uk/Home/Blog"
+                  ><i class="glyphicon glyphicon-link"></i
+                ></a>
+              </h4>
+            </div>
+            <div class="timelineBlog-body">
+              <p>
+                This is my new blog website which will contain articles for Git,
+                Cloud Computing, AWS and more. Currently, I'm working on adding
+                articles for Git and will then move to Cloud Computing.
+              </p>
+              <p>
+                I enjoy writing the articles to help consolidate my learning on
+                the topics.
+              </p>
+              <p>
+                <small class="text-muted pull-right"
+                  >Added On Jan 04, 2020</small
+                >
+              </p>
+            </div>
+          </div>
+        </li>
+        <li class="timelineBlog-inverted">
+          <div class="timelineBlog-badge info">
+            <i class="glyphicon glyphicon-list-alt"></i>
+          </div>
+          <div class="timelineBlog-panel">
+            <div class="timelineBlog-heading">
+              <h4 class="timelineBlog-title">
+                Adetoun O.
+                <a
+                  href="https://medium.com/@detoun4med/my-devops-journey-creating-infrastructure-diagram-using-lucidchart-b8725d5cdbdc"
+                  ><i class="glyphicon glyphicon-link"></i
+                ></a>
+              </h4>
+            </div>
+            <div class="timelineBlog-body">
+              <p>My first timer/learners blog on Infrastructure Diagram</p>
+              <p>
+                <small class="text-muted pull-right"
+                  >Added On Jan 02, 2020</small
+                >
+              </p>
+            </div>
+          </div>
+        </li>
+        <li class="timelineBlog-inverted">
+          <div class="timelineBlog-badge info">
+            <i class="glyphicon glyphicon-list-alt"></i>
+          </div>
+          <div class="timelineBlog-panel">
+            <div class="timelineBlog-heading">
+              <h4 class="timelineBlog-title">
+                Leah Erb - Create Amazon EC2 Key Pairs Using AWS CLI
+                <a
+                  href="https://leaherb.com/create-amazon-key-pair-using-aws-cli/"
+                  ><i class="glyphicon glyphicon-link"></i
+                ></a>
+              </h4>
+            </div>
+            <div class="timelineBlog-body">
+              <p>
+                Want to connect to that AWS EC2 instance you’re launching? Then
+                you’ll need a key pair. Here are 2 easy steps for creating a key
+                pair without having to go to the Amazon Management Console.
+              </p>
+              <p>
+                <small class="text-muted pull-right"
+                  >Added On Dec 30, 2019</small
+                >
+              </p>
+            </div>
+          </div>
+        </li>
+        <li class="timelineBlog-inverted">
+          <div class="timelineBlog-badge info">
+            <i class="glyphicon glyphicon-list-alt"></i>
+          </div>
+          <div class="timelineBlog-panel">
+            <div class="timelineBlog-heading">
+              <h4 class="timelineBlog-title">
+                Shubham Singh
+                <a href="http://bit.ly/2QsE291"
+                  ><i class="glyphicon glyphicon-link"></i
+                ></a>
+              </h4>
+            </div>
+            <div class="timelineBlog-body">
+              <p>My blog is themed towards AWS, Infrastructure as Code.</p>
+              <p>
+                <small class="text-muted pull-right"
+                  >Added On Dec 29, 2019</small
+                >
+              </p>
+            </div>
+          </div>
+        </li>
+        <li class="timelineBlog-inverted">
+          <div class="timelineBlog-badge info">
+            <i class="glyphicon glyphicon-list-alt"></i>
+          </div>
+          <div class="timelineBlog-panel">
+            <div class="timelineBlog-heading">
+              <h4 class="timelineBlog-title">
+                Andrea Grande
+                <a
+                  href="https://medium.com/@ookiisan/setting-up-aws-free-tier-account-and-billing-alarm-9522c490bb7f?sk=273e328b1f53bd0f41575ce09a339ed5"
+                  ><i class="glyphicon glyphicon-link"></i
+                ></a>
+              </h4>
+            </div>
+            <div class="timelineBlog-body">
+              <p>
+                A brief guide that may help you to setup your AWS Free-Tier
+                account and CloudWatch billing alarm.
+              </p>
+              <p>
+                <small class="text-muted pull-right">Added On 27/12/2019</small>
+              </p>
+            </div>
+          </div>
+        </li>
+        <li class="timelineBlog-inverted">
+          <div class="timelineBlog-badge info">
+            <i class="glyphicon glyphicon-list-alt"></i>
+          </div>
+          <div class="timelineBlog-panel">
+            <div class="timelineBlog-heading">
+              <h4 class="timelineBlog-title">
+                Ahmed Monjurul Hasan
+                <a
+                  href="https://medium.com/@hasan.ahmedmonjurul/getting-started-with-git-in-bertelsmann-tech-scholarship-b5d4b349ac6"
+                  ><i class="glyphicon glyphicon-link"></i
+                ></a>
+              </h4>
+            </div>
+            <div class="timelineBlog-body">
+              <p>
+                My blog post gives a hands-on guide on getting started with Git
+                in Bertelsmann Tech Scholarship
+              </p>
+              <p>
+                <small class="text-muted pull-right"
+                  >Added On Dec 27, 2019</small
+                >
+              </p>
+            </div>
+          </div>
+        </li>
+        <li class="timelineBlog-inverted">
+          <div class="timelineBlog-badge info">
+            <i class="glyphicon glyphicon-list-alt"></i>
+          </div>
+          <div class="timelineBlog-panel">
+            <div class="timelineBlog-heading">
+              <h4 class="timelineBlog-title">
+                Ahiwe Onyebuchi Valentine
+                <a
+                  href="https://medium.com/@vahiwe/my-journey-into-devops-e0d3ddee77a1?sk=10b9a706490c2d9d5e9995fffa3d4638"
+                  ><i class="glyphicon glyphicon-link"></i
+                ></a>
+              </h4>
+            </div>
+            <div class="timelineBlog-body">
+              <p>
+                My blog post talks about AWS, GCP and Heroku. It also gives some
+                explanation on IAAS, PAAS and SAAS
+              </p>
+              <p>
+                <small class="text-muted pull-right"
+                  >Added On Dec 22, 2019</small
+                >
+              </p>
+            </div>
+          </div>
+        </li>
+      </ul>
     </div>
-</body></html>
+  </body>
+</html>
